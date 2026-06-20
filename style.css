@@ -1,0 +1,128 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+/* header and footer */
+
+header {
+  border-bottom: 5px solid #aa6666;
+}
+
+footer {
+  border-top: 5px solid #aa6666;
+}
+
+footer p {
+  text-align: center;
+}
+/* Fonts and general text styling */
+
+body {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h2 {
+  font-family: "Trebuchet MS", sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+/* Indent first paragraph after heading */
+
+h2 + p {
+  text-indent: 2rem;
+}
+
+/* Links */
+
+a {
+  color: #aa6666;
+}
+
+a:visited {
+  color: #884444;
+}
+
+a:hover,
+a:focus {
+  color: #cc4444;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+/* Lists */
+
+ul,
+ol,
+p {
+  line-height: 1.6;
+}
+
+ul li,
+ol li {
+  margin-bottom: 8px;
+}
+
+aside ul {
+  list-style-type: square;
+}
+
+/* Navigation */
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  border: 2px solid #aa6666;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+nav a:hover {
+  background-color: #aa6666;
+  color: white;
+}
